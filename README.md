@@ -47,15 +47,17 @@ How does PHS work - https://docs.microsoft.com/en-us/azure/active-directory/hybr
    - Secure Hybrid Access Features- https://azure.microsoft.com/en-us/services/active-directory/sso/secure-hybrid-access/#features
    - Steps to integrate Azure AD (for authentication) with apps that are managed by Akamai (apps that use legacy authentication) -https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/akamai-tutorial
 
-### High-Level Architecture Diagram
+### High-Level Architecture Diagram (Integration with ADC)
 ![image](https://user-images.githubusercontent.com/13979783/160269354-cb842013-ffad-4def-a2b8-98919ba1c8f1.png)
+### Detailed Architecture Diagram 
+TBD
 
 
 ## SaaS
 ### Saas Applications Integration and Setup
 1. Integrating Applications with Azure Active Directory (Including the configuration of SSO)- https://www.youtube.com/watch?v=a3OOzqEh_Zw&list=PLQL1JGGe-t0tfWbaGzQYdUfRRmc6-CSMz&index=6&ab_channel=MicrosoftAzure
 2. Planning a SSO deployment- https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/plan-sso-deployment#single-sign-on-options
-
+3. Architecture diagram -[Saas App AuthN with Azure AD as the IDP](ArchitectureDiagrams/SaaSApps-AuthN-AzureADasIDP-Anatomy.png) 
 
 ## Multitenant Applications
 1. Multi-tenant architecture for SaaS apps with Microsoft 365 and Azure Active Directory- https://www.youtube.com/watch?v=RjGVOFm39j0&t=2s
